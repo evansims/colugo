@@ -1,0 +1,23 @@
+Options +FollowSymlinks -Indexes
+
+<ifModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 2592000 seconds"
+</ifModule>
+
+<ifModule mod_headers.c>
+  <filesMatch "\\.(ico|pdf|flv|jpg|jpeg|png|gif|swf)$">
+    Header set Cache-Control "max-age=2592000, public"
+	SetOutputFilter DEFLATE
+  </filesMatch>
+</ifModule>
+
+<ifModule mod_headers.c>
+	Header unset ETag
+	Header unset Last-Modified
+</ifModule>
+FileETag None
+
+<IfModule mod_rewrite.c>
+RewriteEngine off
+</IfModule>
