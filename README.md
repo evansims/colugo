@@ -4,11 +4,13 @@
 * Donate link: http://evansims.com/projects/colugo
 * Tags: colugo, tweetie, image, publishing, hosted
 
-Colugo is a simple PHP script that allows you to host your tweeted images using Tweetie 2 for iPhone on your own web server.
+Colugo is a simple PHP script that allows you to host your tweeted images using TweetBot (or compatible) on your own web server.
+
+**Please note that this plugin is no longer under development.** — It will require modifications to support Twitter's new OAuth authentication scheme, amongst other things.
 
 ## Description
 
-Colugo is a simple PHP script that allows you to host your tweeted images using Tweetie 2 for iPhone on your own web server. It writes author (your @username), date and copyright details onto the image. It can plug into Shaun Inman's Lessn to autoshorten the tweeted link to your image.
+Colugo is a simple PHP script that allows you to host your tweeted images using TweetBot (or compatible) on your own web server. It writes author (your @username), date and copyright details onto the image. It can plug into Shaun Inman's Lessn to autoshorten the tweeted link to your image.
 
 Colugo includes Jason Kottke's Silkscreen font for the text overlay.
 http://kottke.org/plus/type/silkscreen/
