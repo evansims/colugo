@@ -24,11 +24,8 @@ Contact your web host to determine if they meet these requirements.
 # Installation
 
 1. Create a new directory on your web server via FTP. CHMOD that directory with appropriate write permissions (0755 usually works.)
-	
 2. Extract the zip archive and open "u.php" in your preferred plain-text editor.
-	
 3. Assign the configuration values at the top of the script. (See below for configuration options.)
-	
 4. Upload your modified u.php and the remainder of the contents of the archive to the directory you created.
 
 ## Configuration Options
